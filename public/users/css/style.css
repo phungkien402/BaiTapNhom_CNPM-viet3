@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #app {
+    width: 500px;
+    margin: 0 auto;
+  }

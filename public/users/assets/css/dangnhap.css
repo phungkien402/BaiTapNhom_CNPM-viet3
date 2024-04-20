@@ -1,0 +1,142 @@
+:root {
+  --primary-color: rgb(238, 75, 43);
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --border-color: #dbdbdb;
+  --star-gold-color: #FFCE3E;
+  --header-height: 120px;
+  --navbar-height: 34px;
+  --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+}
+
+body {
+
+  font-size: 14px;
+  background-color: rgb(238, 75, 43);
+  margin: 36px auto 0 auto;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.auth-form {
+  margin: auto;
+  margin-top: 270px;
+  width: 500px;
+  height: 400px;
+  
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0 32px;
+  outline: none;
+}
+.auth-form_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%; 
+  height: 80px;
+  position: relative; 
+  margin-bottom: 50px;
+}
+
+.back-icon {
+  color: #535353;
+  margin-top: 25px;
+  text-decoration: none;
+  position: absolute; 
+  left: 10px; 
+  top: 50%; 
+  transform: translateY(-50%);
+}
+.back-icon::before {
+  font-size: 20px;
+}
+
+
+.back-icon:hover {
+  color:var(--primary-color) ;
+}
+
+.auth-form__heading {
+  color: #535353;
+  font-size: 30px;
+  margin-top: 75px;
+  font-weight: 900;
+}
+
+.auth-form_group {
+  margin-bottom: 15px; /* Khoảng cách giữa các nhóm input */
+}
+
+.auth-form__input {
+  width: calc(100% - 170px); /* Để tạo khoảng cách với viền ngoài */
+  height: 20px;
+  padding: 8px; /* Khoảng cách từ nội dung đến viền */
+  border: 1px solid #ccc; /* Viền xung quanh input */
+  border-radius: 5px; /* Bo tròn các góc của input */
+  outline: none; /* Loại bỏ viền khi focus */
+  transition: border-color 0.3s ease; 
+  font-size: 15px;/* Hiệu ứng khi hover vào input */
+}
+
+.form-label {
+  font-size: 16px;
+}
+
+.auth-form__input-pwd {
+  margin-left: 12px;
+}
+
+.auth-form__input:focus {
+  border-color: #ee4d2d;
+}
+.auth-form__controls {
+  margin-top: 10px;
+  height: 55px;
+  text-decoration: none;
+}
+
+.btn {
+margin-top: 12px;
+padding: 10px;
+width: 30%;
+border: none;
+border-radius: 4px;
+color: white;
+font-size: 18px;
+background-color: var(--primary-color);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(227, 64, 31);
+}
+
+.btn:active {
+  background-color: rgb(225, 105, 80);
+}
+
+.auth.form__help{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.link{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.auth-form__help-separate{
+ 
+  height: 50px;
+  margin: 0 60px ;
+  border-right: 1px solid var(--border-color);
+
+}
+.auth-form__controls1{
+  margin: 20px;
+  font-size: 17px;
+}
+

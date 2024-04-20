@@ -1,0 +1,281 @@
+:root {
+    --primary-color: rgb(238, 75, 43);
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --input-background-color: rgba(0, 0, 0, 0.07);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+
+.wrapper {
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+    border: 1px solid #333;
+}
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    background: linear-gradient(to right, #c5572c 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+ul.admin_menu-list {
+    padding: 10px;
+    list-style-type: none;
+}
+
+ul.admin_menu-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul.admin_menu-list li {
+    border-radius: 5px;
+    background: var(--primary-color);
+    padding: 8px 10px;
+    text-decoration: none;
+    float: left;
+    margin: 0 12px;
+}
+
+input[type="text"] {
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.category_header {
+    padding: 10px;
+}
+
+.category_table {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+.category_table-qlsp {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.list_header {
+    width: 140px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+td span {
+    /* margin-left: 10px; */
+}
+
+input.input {
+    padding-left: 10px;
+    height: 28px;
+    background-color: var(--input-background-color);
+    width: calc(100% - 10px);
+}
+
+.btn {
+    cursor: pointer;
+    padding: 8px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.btn:hover {}
+
+.submit_btn {}
+
+.btn_danhmuc {
+    margin-left: calc(100% - 50% - 55px);
+}
+
+.btn-action {
+    height: 26px;
+    text-align: center;
+    line-height: 16px;
+    padding: 0 5px;
+    margin: 3px 0;
+}
+
+.row_category_header {
+    height: 30px;
+}
+
+.category_list-header th {
+    height: 30px;
+}
+
+.category_list-header th:first-child {
+    width: 5%;
+}
+
+.category_list-header th:last-child {
+    width: 20%;
+}
+
+
+.category_list td {
+    height: 30px;
+}
+
+.category_list td:first-child {
+    text-align: center;
+    width: 5%;
+}
+
+.category_list td:last-child {
+    text-align: center;
+    width: 20%;
+}
+
+.category_list {
+    border: 1px solid var(--border-color);
+}
+
+.product_list {
+    border: 1px solid var(--border-color);
+}
+
+td:nth-child(2) span {
+    margin-left: 10px;
+}
+
+
+
+td a {
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+textarea {
+    resize: none;
+    border: none;
+    height: 100%;
+}
+
+
+
+textarea.input {
+    background-color: var(--input-background-color);
+    width: calc(100% - 1px);
+}
+
+#submit {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn-image {
+    margin-left: 0;
+}
+
+.product_list td:nth-child(4),
+.product_list td:nth-child(3),
+.product_list td:nth-child(5),
+.product_list td:first-child {
+    text-align: center;
+}
+
+.product_list td {
+    height: 30px;
+    max-height: 100px;
+}
+
+#product_id {
+width: 5%;
+}
+
+#product_name {
+    width: 15%;
+}
+
+#product_img {
+    width: 20%;
+
+}
+
+#product_price {
+    width: 12%;
+
+}
+
+#product_quantity {
+    width: 8%;
+
+}
+
+#product_tomtat {
+
+}
+
+#product_noidung {
+
+}
+
+#product_loai {
+    width: 13%;
+
+}
+
+#product_quanly {
+    width: 10%;
+    text-align: center;
+
+
+}
+
+
+input#image {
+    width: calc(100% - 20px);
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.select_option {
+    position: absolute;
+    background-color: var(--primary-color);
+    color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    /* z-index: 99; */
+}
